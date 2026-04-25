@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 import ScrollTriggerAnimation from "@/component/ScrollTigger";
+import TextAnimation from "@/component/TextAnimation";
 gsap.registerPlugin(ScrollTrigger)
 
 export default function Home() {
@@ -48,7 +49,8 @@ export default function Home() {
        <div className="box w-40 h-44 bg-yellow-400 my-3"></div>
          <div className="box w-40 h-44 bg-green-400"></div> */}
      
-     <ScrollTriggerAnimation/>
+     {/* <ScrollTriggerAnimation/> */}
+     <TextAnimation/>
 
      
       
